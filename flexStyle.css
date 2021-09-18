@@ -1,0 +1,48 @@
+/* div.item{
+    background-color: aqua; /*color del item*/
+} */
+
+
+
+.container{
+    display: flex;
+    height: 300px;
+    flex-flow: row wrap ;
+    justify-content: space-around;
+    /* flex-direction: row;
+    flex-wrap: wrap; /* emboltura flexible */
+    /* flex-flow: column row; */
+
+}
+    /* flex-start: me lleva los elementos al inicio */
+/* }      space-beetwuin: separa los elementos dentro de la caja . */
+
+.item{
+    background-color: aqua;
+    padding: 5px;
+    color: darkblue;
+    font-weight: black;
+    width: 100px;
+    height: 100px; /*CAJA DE 100*100*/
+    margin: auto; /*MANGEN AUTOMATICO*/
+    text-align: center;
+}
+.nav{
+    list-style: none;
+    margin: 0;
+    background-color: darkcyan;
+
+    display: flex;
+    flex-flow: row wrap;
+}
+li{
+    margin: 0 5px;
+}
+
+@media añña and (max-width: 600px){ /*me permite adecuar la pagina para que el responsy tenga un limite de tamaño y me aplique siertas caracteristicas*/
+    .nav{ /*cuanto el tamaño del responsy llegue a 600 el nav sufre estas caracteristicas*/
+        flex-flow: column wrap;
+        text-align: center;
+        padding: 0 ;
+    }
+} /*puedo tener barios media cuery dependiendo el tamaño que utilice*/ 

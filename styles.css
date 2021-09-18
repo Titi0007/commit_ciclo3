@@ -1,0 +1,88 @@
+            /*
+            *{
+                padding: 0px; espacio desde el borde al centro 
+                margin; 0px;
+                border:0px; tipo de borde en el sitio señalado
+            }
+            */
+            body{/**/
+                text-align: center;
+               /* border: 1px solid red;*/
+                background-color: rgb(255, 254, 253);
+            
+            }
+            /*header, section, footer, aside,nav,article{
+                border: 1px solid black;
+            }*/
+           
+            h1{/**/
+                font-size: 18px;
+                font-family: sans-serif;
+
+            }
+            h2{/**/
+                font-size: 16px;
+                font-family: sans-serif;
+
+            }
+            header{
+              /*background-color: chocolate;
+                border: 1px solid red;*/
+                padding: 15px;  /**/
+            }
+
+            nav{  /*cuadrado que se encuentra la lista */
+                background-color: rgb(238, 237, 234);
+                text-align: left;
+                border-bottom: 1px solid black ;
+            } 
+            .menu li{   /*principal, ayuda, contacto opciones */
+                list-style: none;
+                display: inline-block;
+                padding: 5px;
+                font: bold 14px verdana;
+            }
+            section{/* donde estan los articulos*/
+                margin: 15px; /* la margen donde estan los articulos*/
+                width: 500px; /*el tamaño total donde van ubicados los articulos*/
+                float: left;/*floten a la derecha*/
+
+            }
+            footer{/*pie de pagina micti*/
+                clear: both;
+                border-top:  1px solid black;
+
+            }
+
+            aside{/*archivo acerca de */
+                width: 100px;
+                float: left;
+                margin: 15px;
+            }
+
+            img{ /*imagenes de la pagina   */
+                width: 100px;/*tamaño de la imagen */
+                display: block;/*forma  */
+                margin: 10px;/*margen de la imagen  */
+            }
+            .comment{
+                text-align: right;/*ubico las etiquetas con el texto comment a la derecha mes una clase estipulada   */
+            }
+            .contanier-news{/*captura dev un contenido estipulado le doy la clase ara identificarlo  */
+                background-color: #b9a263;/*cambio color del fondo  */
+                text-align: left;
+            }
+            article{
+                margin: 15px;
+            }
+            .body-container{
+                background-color: tan;
+
+            }
+            article{
+                margin: 15px;
+            }
+            time{
+                text-align: left;
+            }
+            

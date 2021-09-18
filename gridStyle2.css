@@ -1,0 +1,22 @@
+.container{
+    display: grid;
+     grid-template-columns: 20% 20% 20% 20% 20%; /*columnas que deseo den la pagina */
+     grid-template-rows: 100px 100px ; /*filas que deseo en la pagina  */
+    grid-auto-flow: row; /* me adecua el contenido deacueerdo la lo seleccionado lo centra,pasa a la hizquierda o a la derecha 
+    me dice como se va llenando mi grilla deacuerdo a la opcion   */
+}
+
+.item-1{
+    grid-column: 1;/*establesco donde quiero ubicar el contenido teniendo encuenta las columnas */
+    grid-row: 1/3;/*me indica e
+    la posicion de la fina donde quiero ubicar el elemento */
+}
+.item-5{
+    grid-column: 5;
+    grid-row: 1/3;
+
+}
+.item-3{
+    grid-column: 4;
+    grid-row: 2/3;
+}

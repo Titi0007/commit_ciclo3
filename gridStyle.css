@@ -1,0 +1,50 @@
+  img{
+      width: 10%;
+
+  }
+
+  /*
+  display : grid
+  grid- template- columns
+  grid -template- row s
+  grid -columns
+  grid-row
+
+  propiedades 
+  grid genera cuadricula a ivel de bloque
+  inline grid genera cuadricula a nivel de linea
+  */
+
+  .item-header{
+      grid-area: header;
+     justify-self: start ;
+  
+  }
+
+  .item-main {
+      grid-area: main;
+      
+  }
+
+  .item-nav{
+      grid-area: sidebar;
+  }
+  .item-footer{
+      grid-area: footer;
+  }
+
+
+  .container{
+      display: grid;
+      grid-template-columns: 25% 25% 25% 25%; /* contidad de columnas el 100%/ numero de colomnas*/
+       grid-template-rows:  auto;
+      column-gap: 10px; 
+      grid-template-areas: 
+      "header header header header"
+      "main main . sidebar"
+      "footer footer footer footer";
+      
+      
+      justify-items: start;   /*  la utilizo para acomodar el texto mencionado */
+  }
+ 
